@@ -11,6 +11,7 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "@vue/cli-service": "^4.4.6",
     "express": "^4.17.1",
     "vue": "^1.0.0"
   },
