@@ -3,7 +3,7 @@
   "description": "A Countdown timer using Vue.js",
   "private": true,
   "scripts": {
-    "watchify": "watchify -vd -p browserify-hmr -e src/main.js -o dist/build.js",
+    // "watchify": "watchify -vd -p browserify-hmr -e src/main.js -o dist/build.js",
     "dev": "npm-run-all --parallel watchify serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
