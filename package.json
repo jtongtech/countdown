@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "npm-run-all",
     "serve": "vue-cli-service serve",
-    "installVue": "npm install --save vue",
-    "build": "npm run installVue & vue-cli-service build",
+    "build": "npm install --save vue & vue-cli-service build",
     "postinstall": "npm run build",
     "start": "node server.js"
   },
