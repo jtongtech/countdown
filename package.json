@@ -3,9 +3,10 @@
   "description": "A Countdown timer using Vue.js",
   "private": true,
   "scripts": {
-    "dev": "npm-run-all --parallel watchify serve",
+    "dev": "npm-run-all",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "installVue": "npm install --save vue",
+    "build": "npm install --save vue & vue-cli-service build",
     "postinstall": "npm run build",
     "start": "node server.js"
   },
